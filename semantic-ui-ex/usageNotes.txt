@@ -1,0 +1,6 @@
+* Semantic UI Usage Notes *
+
+- Install using yarn
+- Very new UI, decent documentation
+- Pretty basic, responsive
+- 
