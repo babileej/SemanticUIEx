@@ -1,37 +1,21 @@
 import React, { Component } from 'react';
-import {
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Icon,
-  Image,
-  List,
-  Menu,
-  Sidebar,
-} from 'semantic-ui-react';
-import logo from './logo.svg';
+import SemanticUIMenu from './Components/semanticUIMenu';
+import SemanticUIForms from './Components/semanticUIForms';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="App-header">
+          <SemanticUIMenu></SemanticUIMenu>
+        </div>
+        <div className="App-img">
+          <img alt='#' src={require('./beautiful.JPG')} width='650px' height='400px'></img>
+        </div>
+        <div className="App-body">
+          <SemanticUIForms></SemanticUIForms>
+        </div>
       </div>
     );
   }
