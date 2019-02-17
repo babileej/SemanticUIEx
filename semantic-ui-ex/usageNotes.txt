@@ -2,5 +2,6 @@
 
 - Install using yarn
 - Very new UI, decent documentation
-- Pretty basic, responsive
-- 
+- Pretty basic
+- Almost TOO simplistic (maybe okay for our purposes?)
+- VERY NEW: still seeing how they are going to release/update it.
